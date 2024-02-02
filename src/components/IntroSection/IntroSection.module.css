@@ -1,0 +1,24 @@
+.introWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+.introWrapper > h1 {
+    font-size: 50px;
+}
+
+.introWrapper > div > h3 {
+    font-size: 30px;
+}
+
+.introWrapper > div > p {
+    font-size: 18px;
+    opacity: 30%;
+    margin: 20px 0px;
+}
+
+.introWrapper > hr {
+    opacity: 30%;
+}

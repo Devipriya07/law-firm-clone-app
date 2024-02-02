@@ -1,0 +1,32 @@
+.card3Wrapper {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card3Wrapper:hover {
+    background-color: var(--color-yellow);
+    cursor: pointer;
+    color: var(--color-black);
+}
+
+.card3Data {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.card3Data > h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card3Data > p {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 50%;
+}

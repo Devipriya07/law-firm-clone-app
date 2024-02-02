@@ -1,0 +1,31 @@
+.faqHeading {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 250px;
+}
+
+.faqWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.faqWrapper p {
+    font-size: 16px;
+    opacity: 30%;
+}
+
+.faqWrapper h5 {
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.accordions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr{
+    border: 1px solid rgb(61, 60, 60);
+}

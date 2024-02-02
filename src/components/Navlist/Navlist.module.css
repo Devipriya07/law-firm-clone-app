@@ -1,0 +1,15 @@
+.listWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.navList {
+    font-size: 15px; 
+}
+
+.navList a:hover {
+    border-bottom: 2px solid var(--color-white);
+}

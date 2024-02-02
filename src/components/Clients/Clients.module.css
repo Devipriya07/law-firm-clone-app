@@ -1,0 +1,40 @@
+.clientsWrapper {
+    padding: 50px 100px;
+}
+
+.clientsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0px 100px;
+}
+
+.clientsHeader > h1 {
+    font-size: 40px;
+}
+
+.clientsNavigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigationBtn {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color-white);
+}
+
+.navigationBtn:hover  {
+    background-color: var(--color-yellow);
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

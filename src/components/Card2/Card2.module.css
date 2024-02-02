@@ -1,0 +1,29 @@
+.card2Wrapper {
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid var(--color-lightGray);
+    text-align: left;
+    border-radius: 10px;
+}
+
+.card2Wrapper:hover {
+    background-color: var(--color-lightGray);
+}
+
+.card2Name {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.card2Position {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.card2Para {
+    font-size: 14px;
+    opacity: 30%;
+    margin-top: 20px;
+}

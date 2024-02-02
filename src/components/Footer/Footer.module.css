@@ -1,0 +1,35 @@
+.footerWrapper {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #171717;
+    margin-top: 100px;
+}
+
+.footerWrapper > section {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.socialListWrapper {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialListWrapper li a {
+    color: var(--color-yellow);
+} 
+
+.footerWrapper > div{
+    display: flex;
+    gap: 20px;
+}
+
+.footerWrapper > div > span {
+    font-size: 14px;
+}

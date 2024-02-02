@@ -1,0 +1,9 @@
+.butncustom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-yellow);
+    border-radius: 50%;
+}

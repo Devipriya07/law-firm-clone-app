@@ -1,0 +1,33 @@
+.practiceSectionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.practiceSectionWrapper  h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.practiceSectionWrapper div {
+    display: flex;
+    gap: 20px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer > h5 {
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+
+}
